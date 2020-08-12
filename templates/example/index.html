@@ -1,0 +1,15 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>{% trans 'About Us' %}</h1>
+{% for foo in course %}
+    {{ foo.name }}
+{% endfor %}
+
+</body>
+</html>
